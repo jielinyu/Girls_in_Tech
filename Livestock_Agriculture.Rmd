@@ -1,0 +1,35 @@
+---
+title: "Grils_in_Tech"
+author: "Jielin Yu"
+date: "5/4/2019"
+output: html_document
+---
+
+```{r}
+# Import dataset 
+
+library(readr)
+library(tidyverse)
+Agriculture_emission <- read_csv("data/Agriculture_emission.csv")
+Agriculture_value <- read_csv("data/Agriculture_value.csv")
+Livestock_emission <- read_csv("data/Livestock_emission.csv")
+Livestock_value <- read_csv("data/Livestock_value.csv")
+co2_global <- read_csv("data/annual-co2-emissions-per-country.csv")
+```
+
+```{r}
+# Aggregate value by year 
+
+Livestock_emission <- Livestock_emission %>% group_by(Year) %>% summarize(total_value = sum(Value)) %>% select(Year,total_value)
+
+Livestock_value <-Livestock_value %>% group_by(Year) %>% summarize(total_value = sum(as.numeric(Value))) %>%filter(Year < 2017) %>% select(Year, total_value)
+
+co2_global <- co2_global %>% group_by(Year) %>% summarize(total_value = sum(`Annual CO₂ emissions (Global Carbon Project (2017)) (tonnes)`)) %>% select(Year, total_value) %>% filter(Year >1960)
+
+Agriculture_emission <- Agriculture_emission %>% filter(Item == "Agriculture total") %>% select(Year,Value)
+```
+
+```{r}
+
+```
+
