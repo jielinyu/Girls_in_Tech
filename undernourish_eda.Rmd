@@ -1,0 +1,27 @@
+---
+title: "eda"
+author: "Jingyun Chen"
+date: "04/05/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+undernourish_data <- read.csv("undernourish.csv")
+undernourish_data <- undernourish_data %>% 
+  mutate(Value = as.numeric(Value)/1000)
+undernourish_data$Year <- as.character(undernourish_data$Year)
+undernourish_data <- undernourish_data %>%
+  mutate(Year = as.numeric(substr(Year, 1, 4))+1)
+undernourish_data
+undernourish_data %>% filter(Area == "China") %>%
+  ggplot(aes(Year, Value))+
+  geom_path()
+```
