@@ -1,0 +1,283 @@
+Area Code,Area,Year,Unit,Value,Flag,Flag Description
+2,Afghanistan,2014-2016,%,15.4,F,FAO estimate
+2,Afghanistan,2015-2017,%,16,F,FAO estimate
+3,Albania,2014-2016,%,10.1,F,FAO estimate
+3,Albania,2015-2017,%,10.5,F,FAO estimate
+4,Algeria,2014-2016,%,,NR,Not reported
+4,Algeria,2015-2017,%,,NR,Not reported
+7,Angola,2014-2016,%,,NR,Not reported
+7,Angola,2015-2017,%,,NR,Not reported
+9,Argentina,2014-2016,%,5.8,F,FAO estimate
+9,Argentina,2015-2017,%,8.7,F,FAO estimate
+1,Armenia,2014-2016,%,3.3,F,FAO estimate
+1,Armenia,2015-2017,%,3.8,F,FAO estimate
+10,Australia,2014-2016,%,2.7,F,FAO estimate
+10,Australia,2015-2017,%,3.2,F,FAO estimate
+11,Austria,2014-2016,%,1.1,F,FAO estimate
+11,Austria,2015-2017,%,1.2,F,FAO estimate
+52,Azerbaijan,2014-2016,%,,NR,Not reported
+52,Azerbaijan,2015-2017,%,,NR,Not reported
+13,Bahrain,2014-2016,%,,NR,Not reported
+13,Bahrain,2015-2017,%,,NR,Not reported
+16,Bangladesh,2014-2016,%,,NR,Not reported
+16,Bangladesh,2015-2017,%,,NR,Not reported
+57,Belarus,2014-2016,%,,NR,Not reported
+57,Belarus,2015-2017,%,,NR,Not reported
+255,Belgium,2014-2016,%,,NR,Not reported
+255,Belgium,2015-2017,%,,NR,Not reported
+23,Belize,2014-2016,%,,NR,Not reported
+23,Belize,2015-2017,%,,NR,Not reported
+53,Benin,2014-2016,%,,NR,Not reported
+53,Benin,2015-2017,%,,NR,Not reported
+19,Bolivia (Plurinational State of),2014-2016,%,,NR,Not reported
+19,Bolivia (Plurinational State of),2015-2017,%,,NR,Not reported
+80,Bosnia and Herzegovina,2014-2016,%,1.4,F,FAO estimate
+80,Bosnia and Herzegovina,2015-2017,%,1.5,F,FAO estimate
+20,Botswana,2014-2016,%,35,F,FAO estimate
+20,Botswana,2015-2017,%,39.8,F,FAO estimate
+21,Brazil,2014-2016,%,,NR,Not reported
+21,Brazil,2015-2017,%,,NR,Not reported
+27,Bulgaria,2014-2016,%,,NR,Not reported
+27,Bulgaria,2015-2017,%,,NR,Not reported
+233,Burkina Faso,2014-2016,%,19.9,F,FAO estimate
+233,Burkina Faso,2015-2017,%,23.8,F,FAO estimate
+29,Burundi,2014-2016,%,,NR,Not reported
+29,Burundi,2015-2017,%,,NR,Not reported
+115,Cambodia,2014-2016,%,17.1,F,FAO estimate
+115,Cambodia,2015-2017,%,14.4,F,FAO estimate
+32,Cameroon,2014-2016,%,30.6,F,FAO estimate
+32,Cameroon,2015-2017,%,35.5,F,FAO estimate
+40,Chile,2014-2016,%,3.9,F,FAO estimate
+40,Chile,2015-2017,%,4.4,F,FAO estimate
+351,China,2014-2016,%,,NR,Not reported
+351,China,2015-2017,%,,NR,Not reported
+96,"China, Hong Kong SAR",2014-2016,%,,NR,Not reported
+96,"China, Hong Kong SAR",2015-2017,%,,NR,Not reported
+41,"China, mainland",2014-2016,%,,NR,Not reported
+41,"China, mainland",2015-2017,%,,NR,Not reported
+214,"China, Taiwan Province of",2014-2016,%,,NR,Not reported
+214,"China, Taiwan Province of",2015-2017,%,,NR,Not reported
+44,Colombia,2014-2016,%,,NR,Not reported
+44,Colombia,2015-2017,%,,NR,Not reported
+46,Congo,2014-2016,%,,NR,Not reported
+46,Congo,2015-2017,%,,NR,Not reported
+48,Costa Rica,2014-2016,%,4.8,F,FAO estimate
+48,Costa Rica,2015-2017,%,4.8,F,FAO estimate
+107,C??te d'Ivoire,2014-2016,%,,NR,Not reported
+107,C??te d'Ivoire,2015-2017,%,,NR,Not reported
+98,Croatia,2014-2016,%,0.7,F,FAO estimate
+98,Croatia,2015-2017,%,0.8,F,FAO estimate
+50,Cyprus,2014-2016,%,,NR,Not reported
+50,Cyprus,2015-2017,%,,NR,Not reported
+167,Czechia,2014-2016,%,0.6,F,FAO estimate
+167,Czechia,2015-2017,%,<0.5,F,FAO estimate
+54,Denmark,2014-2016,%,0.8,F,FAO estimate
+54,Denmark,2015-2017,%,1,F,FAO estimate
+56,Dominican Republic,2014-2016,%,,NR,Not reported
+56,Dominican Republic,2015-2017,%,,NR,Not reported
+58,Ecuador,2014-2016,%,7.3,,Official data
+58,Ecuador,2015-2017,%,7.1,,Official data
+59,Egypt,2014-2016,%,9.4,F,FAO estimate
+59,Egypt,2015-2017,%,10.1,F,FAO estimate
+60,El Salvador,2014-2016,%,12.2,F,FAO estimate
+60,El Salvador,2015-2017,%,11.7,F,FAO estimate
+63,Estonia,2014-2016,%,<0.5,F,FAO estimate
+63,Estonia,2015-2017,%,<0.5,F,FAO estimate
+238,Ethiopia,2014-2016,%,,NR,Not reported
+238,Ethiopia,2015-2017,%,,NR,Not reported
+67,Finland,2014-2016,%,2.3,F,FAO estimate
+67,Finland,2015-2017,%,2.2,F,FAO estimate
+68,France,2014-2016,%,1.5,F,FAO estimate
+68,France,2015-2017,%,1.1,F,FAO estimate
+74,Gabon,2014-2016,%,,NR,Not reported
+74,Gabon,2015-2017,%,,NR,Not reported
+75,Gambia,2014-2016,%,25.9,F,FAO estimate
+75,Gambia,2015-2017,%,25.9,F,FAO estimate
+73,Georgia,2014-2016,%,7.5,F,FAO estimate
+73,Georgia,2015-2017,%,8.9,F,FAO estimate
+79,Germany,2014-2016,%,0.9,F,FAO estimate
+79,Germany,2015-2017,%,0.8,F,FAO estimate
+81,Ghana,2014-2016,%,7.9,,Official data
+81,Ghana,2015-2017,%,7.9,,Official data
+84,Greece,2014-2016,%,2.6,F,FAO estimate
+84,Greece,2015-2017,%,3.1,F,FAO estimate
+89,Guatemala,2014-2016,%,,NR,Not reported
+89,Guatemala,2015-2017,%,,NR,Not reported
+90,Guinea,2014-2016,%,38.2,F,FAO estimate
+90,Guinea,2015-2017,%,39.9,F,FAO estimate
+95,Honduras,2014-2016,%,,NR,Not reported
+95,Honduras,2015-2017,%,,NR,Not reported
+97,Hungary,2014-2016,%,1.2,F,FAO estimate
+97,Hungary,2015-2017,%,1,F,FAO estimate
+99,Iceland,2014-2016,%,1.8,F,FAO estimate
+99,Iceland,2015-2017,%,1.6,F,FAO estimate
+100,India,2014-2016,%,,NR,Not reported
+100,India,2015-2017,%,,NR,Not reported
+101,Indonesia,2014-2016,%,,NR,Not reported
+101,Indonesia,2015-2017,%,,NR,Not reported
+102,Iran (Islamic Republic of),2014-2016,%,,NR,Not reported
+102,Iran (Islamic Republic of),2015-2017,%,,NR,Not reported
+103,Iraq,2014-2016,%,,NR,Not reported
+103,Iraq,2015-2017,%,,NR,Not reported
+104,Ireland,2014-2016,%,3.6,F,FAO estimate
+104,Ireland,2015-2017,%,2.7,F,FAO estimate
+105,Israel,2014-2016,%,,NR,Not reported
+105,Israel,2015-2017,%,,NR,Not reported
+106,Italy,2014-2016,%,1.1,F,FAO estimate
+106,Italy,2015-2017,%,1,F,FAO estimate
+109,Jamaica,2014-2016,%,,NR,Not reported
+109,Jamaica,2015-2017,%,,NR,Not reported
+110,Japan,2014-2016,%,<0.5,F,FAO estimate
+110,Japan,2015-2017,%,<0.5,F,FAO estimate
+112,Jordan,2014-2016,%,14.7,F,FAO estimate
+112,Jordan,2015-2017,%,13.9,F,FAO estimate
+108,Kazakhstan,2014-2016,%,0.9,F,FAO estimate
+108,Kazakhstan,2015-2017,%,1.4,F,FAO estimate
+114,Kenya,2014-2016,%,31.8,F,FAO estimate
+114,Kenya,2015-2017,%,35.6,F,FAO estimate
+118,Kuwait,2014-2016,%,,NR,Not reported
+118,Kuwait,2015-2017,%,,NR,Not reported
+113,Kyrgyzstan,2014-2016,%,4.7,F,FAO estimate
+113,Kyrgyzstan,2015-2017,%,4.4,F,FAO estimate
+119,Latvia,2014-2016,%,0.7,F,FAO estimate
+119,Latvia,2015-2017,%,0.7,F,FAO estimate
+122,Lesotho,2014-2016,%,50.1,F,FAO estimate
+122,Lesotho,2015-2017,%,50,F,FAO estimate
+123,Liberia,2014-2016,%,57.5,F,FAO estimate
+123,Liberia,2015-2017,%,56.6,F,FAO estimate
+124,Libya,2014-2016,%,,NR,Not reported
+124,Libya,2015-2017,%,,NR,Not reported
+126,Lithuania,2014-2016,%,0.5,F,FAO estimate
+126,Lithuania,2015-2017,%,<0.5,F,FAO estimate
+256,Luxembourg,2014-2016,%,1.2,F,FAO estimate
+256,Luxembourg,2015-2017,%,1,F,FAO estimate
+130,Malawi,2014-2016,%,53.9,,Official data
+130,Malawi,2015-2017,%,52.4,,Official data
+131,Malaysia,2014-2016,%,,NR,Not reported
+131,Malaysia,2015-2017,%,,NR,Not reported
+134,Malta,2014-2016,%,,NR,Not reported
+134,Malta,2015-2017,%,,NR,Not reported
+136,Mauritania,2014-2016,%,,NR,Not reported
+136,Mauritania,2015-2017,%,,NR,Not reported
+137,Mauritius,2014-2016,%,5.2,F,FAO estimate
+137,Mauritius,2015-2017,%,5.9,F,FAO estimate
+138,Mexico,2014-2016,%,9,F,FAO estimate
+138,Mexico,2015-2017,%,8.9,F,FAO estimate
+141,Mongolia,2014-2016,%,1.9,F,FAO estimate
+141,Mongolia,2015-2017,%,2.8,F,FAO estimate
+273,Montenegro,2014-2016,%,2.2,F,FAO estimate
+273,Montenegro,2015-2017,%,2.3,F,FAO estimate
+143,Morocco,2014-2016,%,,NR,Not reported
+143,Morocco,2015-2017,%,,NR,Not reported
+144,Mozambique,2014-2016,%,,NR,Not reported
+144,Mozambique,2015-2017,%,,NR,Not reported
+147,Namibia,2014-2016,%,41.4,F,FAO estimate
+147,Namibia,2015-2017,%,39.8,F,FAO estimate
+149,Nepal,2014-2016,%,8.8,F,FAO estimate
+149,Nepal,2015-2017,%,7.8,F,FAO estimate
+150,Netherlands,2014-2016,%,,NR,Not reported
+150,Netherlands,2015-2017,%,,NR,Not reported
+156,New Zealand,2014-2016,%,2.7,F,FAO estimate
+156,New Zealand,2015-2017,%,3.2,F,FAO estimate
+157,Nicaragua,2014-2016,%,,NR,Not reported
+157,Nicaragua,2015-2017,%,,NR,Not reported
+158,Niger,2014-2016,%,28.1,F,FAO estimate
+158,Niger,2015-2017,%,37.2,F,FAO estimate
+159,Nigeria,2014-2016,%,22.4,F,FAO estimate
+159,Nigeria,2015-2017,%,24.8,F,FAO estimate
+162,Norway,2014-2016,%,1.1,F,FAO estimate
+162,Norway,2015-2017,%,1.2,F,FAO estimate
+299,Palestine,2014-2016,%,9.7,F,FAO estimate
+299,Palestine,2015-2017,%,9.2,F,FAO estimate
+165,Pakistan,2014-2016,%,,NR,Not reported
+165,Pakistan,2015-2017,%,,NR,Not reported
+166,Panama,2014-2016,%,,NR,Not reported
+166,Panama,2015-2017,%,,NR,Not reported
+169,Paraguay,2014-2016,%,,NR,Not reported
+169,Paraguay,2015-2017,%,,NR,Not reported
+170,Peru,2014-2016,%,,NR,Not reported
+170,Peru,2015-2017,%,,NR,Not reported
+171,Philippines,2014-2016,%,11.2,F,FAO estimate
+171,Philippines,2015-2017,%,12.9,F,FAO estimate
+173,Poland,2014-2016,%,1.7,F,FAO estimate
+173,Poland,2015-2017,%,1.1,F,FAO estimate
+174,Portugal,2014-2016,%,4.2,F,FAO estimate
+174,Portugal,2015-2017,%,3.7,F,FAO estimate
+177,Puerto Rico,2014-2016,%,,NR,Not reported
+177,Puerto Rico,2015-2017,%,,NR,Not reported
+117,Republic of Korea,2014-2016,%,<0.5,,Official data
+117,Republic of Korea,2015-2017,%,<0.5,,Official data
+146,Republic of Moldova,2014-2016,%,2.6,F,FAO estimate
+146,Republic of Moldova,2015-2017,%,3.4,F,FAO estimate
+183,Romania,2014-2016,%,4.7,F,FAO estimate
+183,Romania,2015-2017,%,4.1,F,FAO estimate
+185,Russian Federation,2014-2016,%,,NR,Not reported
+185,Russian Federation,2015-2017,%,,NR,Not reported
+184,Rwanda,2014-2016,%,,NR,Not reported
+184,Rwanda,2015-2017,%,,NR,Not reported
+189,Saint Lucia,2014-2016,%,4.5,,Official data
+189,Saint Lucia,2015-2017,%,4.5,,Official data
+194,Saudi Arabia,2014-2016,%,,NR,Not reported
+194,Saudi Arabia,2015-2017,%,,NR,Not reported
+195,Senegal,2014-2016,%,,NR,Not reported
+195,Senegal,2015-2017,%,,NR,Not reported
+272,Serbia,2014-2016,%,1.6,F,FAO estimate
+272,Serbia,2015-2017,%,2.1,F,FAO estimate
+196,Seychelles,2014-2016,%,3.2,,Official data
+196,Seychelles,2015-2017,%,2.4,,Official data
+197,Sierra Leone,2014-2016,%,62.2,F,FAO estimate
+197,Sierra Leone,2015-2017,%,70.6,F,FAO estimate
+200,Singapore,2014-2016,%,0.5,F,FAO estimate
+200,Singapore,2015-2017,%,0.6,F,FAO estimate
+199,Slovakia,2014-2016,%,0.5,F,FAO estimate
+199,Slovakia,2015-2017,%,<0.5,F,FAO estimate
+198,Slovenia,2014-2016,%,,NR,Not reported
+198,Slovenia,2015-2017,%,,NR,Not reported
+202,South Africa,2014-2016,%,,NR,Not reported
+202,South Africa,2015-2017,%,,NR,Not reported
+203,Spain,2014-2016,%,1.2,F,FAO estimate
+203,Spain,2015-2017,%,1.4,F,FAO estimate
+38,Sri Lanka,2014-2016,%,,NR,Not reported
+38,Sri Lanka,2015-2017,%,,NR,Not reported
+276,Sudan,2014-2016,%,,NR,Not reported
+276,Sudan,2015-2017,%,,NR,Not reported
+210,Sweden,2014-2016,%,0.8,F,FAO estimate
+210,Sweden,2015-2017,%,1,F,FAO estimate
+211,Switzerland,2014-2016,%,1.1,F,FAO estimate
+211,Switzerland,2015-2017,%,1.3,F,FAO estimate
+208,Tajikistan,2014-2016,%,5.3,F,FAO estimate
+208,Tajikistan,2015-2017,%,7.8,F,FAO estimate
+216,Thailand,2014-2016,%,,NR,Not reported
+216,Thailand,2015-2017,%,,NR,Not reported
+154,North Macedonia,2014-2016,%,3.8,F,FAO estimate
+154,North Macedonia,2015-2017,%,3.3,F,FAO estimate
+217,Togo,2014-2016,%,30.9,F,FAO estimate
+217,Togo,2015-2017,%,30.5,F,FAO estimate
+222,Tunisia,2014-2016,%,,NR,Not reported
+222,Tunisia,2015-2017,%,,NR,Not reported
+223,Turkey,2014-2016,%,,NR,Not reported
+223,Turkey,2015-2017,%,,NR,Not reported
+226,Uganda,2014-2016,%,,NR,Not reported
+226,Uganda,2015-2017,%,,NR,Not reported
+230,Ukraine,2014-2016,%,,NR,Not reported
+230,Ukraine,2015-2017,%,,NR,Not reported
+225,United Arab Emirates,2014-2016,%,,NR,Not reported
+225,United Arab Emirates,2015-2017,%,,NR,Not reported
+229,United Kingdom,2014-2016,%,4,F,FAO estimate
+229,United Kingdom,2015-2017,%,3.4,F,FAO estimate
+215,United Republic of Tanzania,2014-2016,%,,NR,Not reported
+215,United Republic of Tanzania,2015-2017,%,,NR,Not reported
+231,United States of America,2014-2016,%,1.1,,Official data
+231,United States of America,2015-2017,%,1.1,,Official data
+234,Uruguay,2014-2016,%,,NR,Not reported
+234,Uruguay,2015-2017,%,,NR,Not reported
+235,Uzbekistan,2014-2016,%,,NR,Not reported
+235,Uzbekistan,2015-2017,%,,NR,Not reported
+236,Venezuela (Bolivarian Republic of),2014-2016,%,,NR,Not reported
+236,Venezuela (Bolivarian Republic of),2015-2017,%,,NR,Not reported
+237,Viet Nam,2014-2016,%,1.8,F,FAO estimate
+237,Viet Nam,2015-2017,%,2.3,F,FAO estimate
+251,Zambia,2014-2016,%,,NR,Not reported
+251,Zambia,2015-2017,%,,NR,Not reported
+181,Zimbabwe,2014-2016,%,,NR,Not reported
+181,Zimbabwe,2015-2017,%,,NR,Not reported
