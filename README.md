@@ -4,7 +4,7 @@
 ## Overview
 The [Shinny App]() shows the relationship between global warming and hunger problem. 
 
-We expect that increasing agriculture production improves the hunger problem over world since there are more food for more people. The problem comes with the growing agriculture production is the increasing of the $$CO^2$$ emission, which intensifies global warming. From our shiny app interface, you will see four tabs with some plots and tables that you will be able to find the relationship between the $CO^2$ emission and the worldly proportion of  undernourishment from year 1999 to 2016 and the relationship of worldly agriculture production (livestock and agriculture) and $CO^2$ emission from year 1961 to year 2016. 
+We expect that increasing agriculture production improves the hunger problem over world since there are more food for more people. The problem comes with the growing agriculture production is the increasing of the $CO_2$ emission, which intensifies global warming. From our shiny app interface, you will see four tabs with some plots and tables that you will be able to find the relationship between the $CO^2$ emission and the worldly proportion of  undernourishment from year 1999 to 2016 and the relationship of worldly agriculture production (livestock and agriculture) and $CO^2$ emission from year 1961 to year 2016. 
 
 ## Contributor
 | Team Member Name  | Github  Handle   |
