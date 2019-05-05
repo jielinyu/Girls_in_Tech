@@ -11,8 +11,9 @@ suppressPackageStartupMessages(library(shiny))
 suppressPackageStartupMessages(library(shinydashboard))
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(DT))
+suppressPackageStartupMessages(library(rsconnect))
 
-combine_df <- read.csv('../data/combine_data_hunger.csv')
+combine_df <- read.csv('combine_data_hunger.csv')
 
 
 # Define UI for application that draws a histogram
@@ -75,16 +76,14 @@ ui <- dashboardPage(
                 fluidRow(
                     column(width = 12,
                         box(width = NULL, status = 'primary', title = "Raw Data", solidHeader = T,
-                           dataTableOutput('datatable'))
-                    )
-                ),
+                           dataTableOutput('datatable')))),
                 fluidRow(
                     box(title = 'Metadata', width = NULL, 
                         dataTableOutput('metadata'),
                         downloadButton("download", label = "Download data as csv"))
                     )
                 ),
-            tabItem(tabName = "info", includeMarkdown("../README.md"))
+            tabItem(tabName = "info", includeMarkdown("README.md"))
             
         )
     )
@@ -133,8 +132,8 @@ server <- function(input, output) {
             theme_bw()+
             theme(legend.position = "bottom", legend.title = element_blank())
 
-        ggsave('../img/emission_timeplot.PNG')
-        list(src = '../img/emission_timeplot.PNG',width = 380,height = 290)
+        ggsave('emission_timeplot.PNG')
+        list(src = 'emission_timeplot.PNG',width = 380,height = 290)
     })
     output$emission_timeplot <- renderImage(emission_timeplot(), deleteFile = T)
 
@@ -149,8 +148,8 @@ server <- function(input, output) {
             theme(legend.position = "bottom", legend.title = element_blank())
 
         
-        ggsave('../img/product_timeplot.PNG')
-        list(src = '../img/product_timeplot.PNG',width = 380 ,height = 290)
+        ggsave('product_timeplot.PNG')
+        list(src = 'product_timeplot.PNG',width = 380 ,height = 290)
     })
     output$product_timeplot <- renderImage(product_timeplot())
 
@@ -163,8 +162,8 @@ server <- function(input, output) {
             ylab("Proportion of Population") +
             theme_bw()
         
-        ggsave('../img/unnourish_timeplot.PNG')
-        list(src = '../img/unnourish_timeplot.PNG',width = 390,height = 250)
+        ggsave('unnourish_timeplot.PNG')
+        list(src = 'unnourish_timeplot.PNG',width = 390,height = 250)
     })
     output$unnourish_timeplot <- renderImage(unnourish_timeplot())
     
@@ -226,9 +225,9 @@ server <- function(input, output) {
     emi_val_compPlot <- reactive(
         filter_df() %>% 
             ggplot()+
-            geom_point(aes(x = livestock_emi, y = livestock_value, color = "Livestock"), 
+            geom_point(aes(x = livestock_value, y = livestock_emi, color = "Livestock"), 
                        size = 2.5, alpha = 0.5) +
-            geom_point(aes(x = agriculture_emi, y = agriculture_value, color = "Agriculture"), 
+            geom_point(aes(x = agriculture_value, y = agriculture_emi, color = "Agriculture"), 
                        size = 2.5, alpha = 0.5) +
             xlab(expression(CO[2]*" Emission (Million gigagrams)")) +
             ylab("Total Production Value (Billion USD)") +
@@ -263,7 +262,7 @@ server <- function(input, output) {
             geom_point(aes(x = livestock_emi, color = "Livestock"), size = 2.5, alpha = 0.5) +
             geom_point(aes(x = agriculture_emi, color = "Agriculture"), size = 2.5, alpha = 0.5) +
             ylim(c(0.12,0.16)) +
-            xlab(expression(CO[2]*" Emission (Million gigagrams)")) +
+            xlab(expression('Production'*CO[2]*" Emission (Million gigagrams)")) +
             ylab("Proportion of Undernourished Population")+
             theme_bw()+
             theme(legend.position = "bottom", legend.title = element_blank())
