@@ -6,10 +6,15 @@ output: html_document
 ---
 
 ```{r}
-# Import dataset 
-
 library(readr)
 library(tidyverse)
+library(ggplot2)
+```
+
+
+```{r}
+# Import dataset 
+
 Agriculture_emission <- read_csv("data/Agriculture_emission.csv")
 Agriculture_value <- read_csv("data/Agriculture_value.csv")
 Livestock_emission <- read_csv("data/Livestock_emission.csv")
@@ -20,16 +25,34 @@ co2_global <- read_csv("data/annual-co2-emissions-per-country.csv")
 ```{r}
 # Aggregate value by year 
 
-Livestock_emission <- Livestock_emission %>% group_by(Year) %>% summarize(total_value = sum(Value)) %>% select(Year,total_value)
+Livestock_emission <- Livestock_emission %>% group_by(Year) %>% summarize(value_le = sum(Value)) %>% select(Year,value_le)
 
-Livestock_value <-Livestock_value %>% group_by(Year) %>% summarize(total_value = sum(as.numeric(Value))) %>%filter(Year < 2017) %>% select(Year, total_value)
+Livestock_value <-Livestock_value %>% group_by(Year) %>% summarize(value_lv = sum(as.numeric(Value))) %>%filter(Year < 2017) %>% select(Year, value_lv)
 
-co2_global <- co2_global %>% group_by(Year) %>% summarize(total_value = sum(`Annual CO₂ emissions (Global Carbon Project (2017)) (tonnes)`)) %>% select(Year, total_value) %>% filter(Year >1960)
+co2_global <- co2_global %>% group_by(Year) %>% summarize(value_co2 = sum(`Annual CO₂ emissions (Global Carbon Project (2017)) (tonnes)`)) %>% select(Year, value_co2) %>% filter(Year >1960)
 
-Agriculture_emission <- Agriculture_emission %>% filter(Item == "Agriculture total") %>% select(Year,Value)
+Agriculture_emission <- Agriculture_emission %>% filter(Item == "Agriculture total") %>% rename(value_ae = Value) %>%  select(Year,value_ae)
+
+Agriculture_value <- Agriculture_value %>% rename(value_av = Value) %>% select(Year, value_av)
 ```
 
 ```{r}
+final_df <- do.call("cbind",list(Livestock_emission,Livestock_value,co2_global,Agriculture_emission,Agriculture_value))
+```
 
+```{r}
+final_df<-final_df[-c(3,5,7,9)]
+write_csv(final_df,"data/final_df")
+names(final_df)
+```
+
+```{r}
+final_df %>% ggplot(aes(value_co2)) + geom_point(aes(y=value_av, colour = "Agriculture Value")) + geom_point(aes(y=value_lv,colour="Livestock Value")) +xlab("Value")+ylab("CO2 Value")+coord_flip()+theme_bw()+labs(title = "How Agriculture/Livestock Value affect Co2")
+
+final_df %>% ggplot(aes(value_co2)) + geom_line(aes(y=value_ae,colour="Agriculture Emission")) + geom_line(aes(y=value_le,colour="Livestock Emission")) +xlab("Emission")+ylab("CO2 Value")+coord_flip()+theme_bw()+labs(title = "How Agriculture/Livestock Emission affect Co2")
+
+final_df %>% ggplot(aes(Year)) + geom_line(aes(y=value_ae,colour="Agriculture Emission")) + geom_line(aes(y=value_le,colour="Livestock Emission")) + labs(title = "Emission Change") + ylab("Emission")+theme_bw()
+
+final_df %>% ggplot(aes(Year)) + geom_line(aes(y=value_av,colour="Agriculture Value")) + geom_line(aes(y=value_lv,colour="Livestock Value")) + labs(title = "Value Change") + ylab("Value")+theme_bw()
 ```
 

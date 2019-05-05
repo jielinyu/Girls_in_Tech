@@ -2,9 +2,22 @@
 ![img.jpg](img.jpg)
 
 ## Overview
-The [Shinny App]() shows the relationship between global warming and hunger problem. 
 
-We expect that increasing agriculture production improves the hunger problem over world since there are more food for more people. The problem comes with the growing agriculture production is the increasing of the CO2 emission, which intensifies global warming. From our shiny app interface, you will see four tabs with some plots and tables that you will be able to find the relationship between the CO2 emission and the worldly proportion of  undernourishment from year 1999 to 2016 and the relationship of worldly agriculture production (livestock and agriculture) and CO2 emission from year 1961 to year 2016. 
+**Obejctive**: Most of people think that increasing agriculture production can alleviate the hunger problem over world, while it results in the increase of CO2 emission and contribute global warming. This project explores global CO2 emission data, food production data and undernourishment population data to explore whether this paradox true exists.
+
+**Product**: [Shiny App]()
+- Input: Year slider - Flexible select year range of interest
+- Output:
+  - Dashboard:
+    - Time Series Data: Line plots of variables changing over time
+    - Emission Data: Point plots of relationship between Emissions and Global CO2
+    - Undernourishment Data: Point plots of undernourishment and Global CO2
+- Data
+- Info
+- Source Code
+
+
+**Observation**: Data visualizations in our shinny app shows that while agriculture production increases, undernourishment index does not decrease and global warming keeps exacerbating.
 
 ## Contributor
 | Team Member Name  | Github  Handle   |
@@ -15,7 +28,7 @@ We expect that increasing agriculture production improves the hunger problem ove
 | Zixin Zhang       | @zxzzhangg  |
 
 ## Data
-The below is the description of our data table. 
+The below is the description of our data table.
 
 | Variable Name        | Description                                                       | Unit     |
 |----------------------|-------------------------------------------------------------------|----------|
@@ -27,7 +40,7 @@ The below is the description of our data table.
 | Undernourishment     | Rate of undernourishment                                          | N/A      |
 
 ## Reference
-Our data are get from the FAO organization(Food and Agriculture Organization of the United Nations). 
+Our data are get from the FAO organization(Food and Agriculture Organization of the United Nations).
 
 [Livestock Primary](http://www.fao.org/faostat/en/#data/QL)
 
